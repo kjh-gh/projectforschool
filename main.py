@@ -33,7 +33,7 @@ if st.session_state['pages'] == 'welcome':
                 font-size: 11rem;
                 font-weight: bold;
                 text-align: center;
-                margin-top: 20vh;
+                margin-top: 16vh;
                 margin-bottom: 20vh;
             }
         </style>
