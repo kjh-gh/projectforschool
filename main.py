@@ -30,10 +30,10 @@ if st.session_state['pages'] == 'welcome':
     st.markdown("""
         <style>
             .center-title {
-                font-size: 8.5rem;
+                font-size: 9.5rem;
                 font-weight: bold;
                 text-align: center;
-                margin-top: 10vh;
+                margin-top: 5vh;
                 margin-bottom: 20vh;
             }
         </style>
