@@ -33,8 +33,8 @@ if st.session_state['pages'] == 'welcome':
                 font-size: 11rem;
                 font-weight: bold;
                 text-align: center;
-                margin-top: 5vh;
-                margin-bottom: 10vh;
+                margin-top: 10vh;
+                margin-bottom: 20vh;
             }
         </style>
         <div class="center-title">It's Marketing</div>
@@ -42,7 +42,7 @@ if st.session_state['pages'] == 'welcome':
 
     # 여유 공간 아래에 버튼 배치
     with st.container():
-        col = st.columns([1, 4, 1])[1]
+        col = st.columns([1, 8, 1])[1]
         with col:
             if st.button("도전하기", use_container_width=True):
                 st.session_state['pages'] = 'explain'
