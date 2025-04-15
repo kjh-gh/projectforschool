@@ -37,7 +37,7 @@ if st.session_state['pages'] == 'welcome':
                 margin-bottom: 20vh;
             }
         </style>
-        <div class="center-title">hello</div>
+        <div class="center-title">It's Marketing</div>
     """, unsafe_allow_html=True)
 
     # 여유 공간 아래에 버튼 배치
